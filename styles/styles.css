@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header-page {
+  background-color: #ffe17f;
+  margin: 40px 140px 0;
+  padding: 0;
+}
+
+.navigation-page {
+  margin: 0 60px;
+  padding: 0;
+}
+
+.category-item {
+  width: 160px;
+  height: 160px;
+  background-color: #ffe17f;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.category-item:nth-child(1) {
+  background-image: url("../images/svg/part-vr.svg");
+}
+
+.category-item:nth-child(2) {
+  background-image: url("../images/svg/part-monopods.svg");
+}
+
+.category-item:nth-child(3) {
+  background-image: url("../images/svg/part-cameras.svg");
+}
+
+.category-item:nth-child(4) {
+  background-image: url("../images/svg/part-bracelets.svg");
+}
+
+.category-item:nth-child(5) {
+  background-image: url("../images/svg/part-watch.svg");
+}
+
+.category-item:nth-child(6) {
+  background-image: url("../images/svg/part-copters.svg");
+}
+
+.main-subscribe {
+  background-color: #f0f0f0;
+  padding: 64px 141px 56px;
+}
+
+.footer-page {
+  background-color: #444444;
+  padding: 62px 141px 77px;
+}
