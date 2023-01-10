@@ -836,6 +836,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .services-item {
@@ -902,7 +903,7 @@ body {
 }
 
 .services-text-wrapper {
-  width: 679px;
+  width: 702px;
   padding: 73px 100px 73px 116px;
   border-left: 7px solid #000000;
 }
@@ -919,31 +920,31 @@ body {
   margin: 0;
 }
 
-.services-delivery-icon,
-.services-warranty-icon,
-.services-credit-icon {
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin-top: 78px;
-}
-
-.services-delivery-icon {
+.services-item:nth-child(1)::after {
   width: 136px;
   height: 164px;
-  background-image: url("../images/svg/services-delivery.svg");
+  position: absolute;
+  content: url("../images/svg/services-delivery.svg");
+  top: 78px;
+  right: -114px;
 }
 
-.services-warranty-icon {
+.services-item:nth-child(2)::after {
   width: 171px;
   height: 195px;
-  background-image: url("../images/svg/services-warranty.svg");
+  position: absolute;
+  content: url("../images/svg/services-warranty.svg");
+  top: 63px;
+  right: -148px;
 }
 
-.services-credit-icon {
+.services-item:nth-child(3)::after {
   width: 156px;
   height: 188px;
-  background-image: url("../images/svg/services-credit.svg");
+  position: absolute;
+  content: url("../images/svg/services-credit.svg");
+  top: 67px;
+  right: -152px;
 }
 
 .services-item {
